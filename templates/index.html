@@ -8,9 +8,13 @@
 
     <h1>Minha aplicação Flask</h1>
 
-    <a href="/sobre">
-        <button>Sobre</button>
-    </a>
+    <nav>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('sobre') }}">Sobre</a>
+        <a href="{{ url_for('contato') }}">Contato</a>
+        <a href="{{ url_for('projetos') }}">Projetos</a>
+        <a href="{{ url_for('servicos') }}">Serviços</a>
+    </nav>
 
 </body>
 </html>
