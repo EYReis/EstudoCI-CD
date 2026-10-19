@@ -38,3 +38,6 @@ build/
 
 flake8-report.txt
 how marco-1
+
+.coverage
+htmlcov/
