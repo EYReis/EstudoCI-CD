@@ -37,3 +37,6 @@ build/
 .eggs/
 
 flake8-report.txt
+
+.coverage
+htmlcov/
